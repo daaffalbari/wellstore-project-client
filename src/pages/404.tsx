@@ -194,8 +194,8 @@ export default function NotFound() {
                 y2="177.412"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#83A6FF" />
-                <stop offset="1" stop-color="#5A78FF" />
+                <stop stopColor="#83A6FF" />
+                <stop offset="1" stopColor="#5A78FF" />
               </linearGradient>
               <linearGradient
                 id="paint1_linear"
@@ -205,8 +205,8 @@ export default function NotFound() {
                 y2="25.0788"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#83A6FF" />
-                <stop offset="1" stop-color="#5A78FF" />
+                <stop stopColor="#83A6FF" />
+                <stop offset="1" stopColor="#5A78FF" />
               </linearGradient>
               <linearGradient
                 id="paint2_linear"
@@ -216,8 +216,8 @@ export default function NotFound() {
                 y2="258.937"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.00289017" stop-color="#606673" stop-opacity="0" />
-                <stop offset="1" stop-color="#373C47" />
+                <stop offset="0.00289017" stopColor="#606673" stop-opacity="0" />
+                <stop offset="1" stopColor="#373C47" />
               </linearGradient>
               <linearGradient
                 id="paint3_linear"
@@ -227,8 +227,8 @@ export default function NotFound() {
                 y2="48.4336"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.00289017" stop-color="#606673" stop-opacity="0" />
-                <stop offset="1" stop-color="#373C47" />
+                <stop offset="0.00289017" stopColor="#606673" stop-opacity="0" />
+                <stop offset="1" stopColor="#373C47" />
               </linearGradient>
               <linearGradient
                 id="paint4_linear"
@@ -238,8 +238,8 @@ export default function NotFound() {
                 y2="78.748"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#FF66A9" />
-                <stop offset="1" stop-color="#F53689" />
+                <stop stopColor="#FF66A9" />
+                <stop offset="1" stopColor="#F53689" />
               </linearGradient>
               <linearGradient
                 id="paint5_linear"
@@ -249,8 +249,8 @@ export default function NotFound() {
                 y2="169.644"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.00289017" stop-color="#606673" stop-opacity="0" />
-                <stop offset="1" stop-color="#373C47" />
+                <stop offset="0.00289017" stopColor="#606673" stop-opacity="0" />
+                <stop offset="1" stopColor="#373C47" />
               </linearGradient>
               <linearGradient
                 id="paint6_linear"
@@ -260,8 +260,8 @@ export default function NotFound() {
                 y2="169.644"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.00289017" stop-color="#606673" stop-opacity="0" />
-                <stop offset="1" stop-color="#373C47" />
+                <stop offset="0.00289017" stopColor="#606673" stop-opacity="0" />
+                <stop offset="1" stopColor="#373C47" />
               </linearGradient>
               <linearGradient
                 id="paint7_linear"
@@ -271,8 +271,8 @@ export default function NotFound() {
                 y2="47.7445"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.00289017" stop-color="#3F5073" stop-opacity="0" />
-                <stop offset="1" stop-color="#283247" />
+                <stop offset="0.00289017" stopColor="#3F5073" stop-opacity="0" />
+                <stop offset="1" stopColor="#283247" />
               </linearGradient>
               <clipPath id="clip0">
                 <rect width="482.759" height="300" fill="white" />
