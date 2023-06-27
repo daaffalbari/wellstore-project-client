@@ -54,7 +54,7 @@ export default function Auth(props: Partial<AuthProps>) {
   return (
     <li className="nav-item my-auto">
       <Link href={'/sign-in'} legacyBehavior>
-        <a className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill" href="/sign-in" role="button">
+        <a className="btn btn-sign-in d-flex justify-content-center ms-lg-2 rounded-pill" role="button">
           Sign In
         </a>
       </Link>
