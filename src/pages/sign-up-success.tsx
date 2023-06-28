@@ -152,7 +152,7 @@ export default function SignUpSuccess() {
                 gradientUnits="userSpaceOnUse"
               >
                 <stop stopColor="#4F6AFF" />
-                <stop offset="1" stopColor="#657EFF" stop-opacity="0" />
+                <stop offset="1" stopColor="#657EFF" stopOpacity="0" />
               </linearGradient>
               <linearGradient
                 id="paint6_linear"

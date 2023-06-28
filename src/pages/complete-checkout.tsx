@@ -204,7 +204,7 @@ export default function CompleteCheckout() {
                 y2="269.213"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.00289017" stopColor="#606673" stop-opacity="0" />
+                <stop offset="0.00289017" stopColor="#606673" stopOpacity="0" />
                 <stop offset="1" stopColor="#373C47" />
               </linearGradient>
               <linearGradient

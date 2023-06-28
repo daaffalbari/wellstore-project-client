@@ -216,7 +216,7 @@ export default function NotFound() {
                 y2="258.937"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.00289017" stopColor="#606673" stop-opacity="0" />
+                <stop offset="0.00289017" stopColor="#606673" stopOpacity="0" />
                 <stop offset="1" stopColor="#373C47" />
               </linearGradient>
               <linearGradient
@@ -227,7 +227,7 @@ export default function NotFound() {
                 y2="48.4336"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.00289017" stopColor="#606673" stop-opacity="0" />
+                <stop offset="0.00289017" stopColor="#606673" stopOpacity="0" />
                 <stop offset="1" stopColor="#373C47" />
               </linearGradient>
               <linearGradient
@@ -249,7 +249,7 @@ export default function NotFound() {
                 y2="169.644"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.00289017" stopColor="#606673" stop-opacity="0" />
+                <stop offset="0.00289017" stopColor="#606673" stopOpacity="0" />
                 <stop offset="1" stopColor="#373C47" />
               </linearGradient>
               <linearGradient
@@ -260,7 +260,7 @@ export default function NotFound() {
                 y2="169.644"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.00289017" stopColor="#606673" stop-opacity="0" />
+                <stop offset="0.00289017" stopColor="#606673" stopOpacity="0" />
                 <stop offset="1" stopColor="#373C47" />
               </linearGradient>
               <linearGradient
@@ -271,7 +271,7 @@ export default function NotFound() {
                 y2="47.7445"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0.00289017" stopColor="#3F5073" stop-opacity="0" />
+                <stop offset="0.00289017" stopColor="#3F5073" stopOpacity="0" />
                 <stop offset="1" stopColor="#283247" />
               </linearGradient>
               <clipPath id="clip0">
