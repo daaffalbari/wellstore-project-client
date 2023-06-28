@@ -28,7 +28,7 @@ export default function TopUpForm() {
             <div className="detail-card">
               <div className="d-flex justify-content-between">
                 <p className="text-3xl color-palette-1 m-0">
-                  <span className="fw-medium">125</span>
+                  <span className="fw-medium">125 </span>
                   Gold
                 </p>
                 <svg
@@ -57,7 +57,7 @@ export default function TopUpForm() {
             <div className="detail-card">
               <div className="d-flex justify-content-between">
                 <p className="text-3xl color-palette-1 m-0">
-                  <span className="fw-medium">125</span>
+                  <span className="fw-medium">125 </span>
                   Gold
                 </p>
                 <svg
@@ -86,7 +86,7 @@ export default function TopUpForm() {
             <div className="detail-card">
               <div className="d-flex justify-content-between">
                 <p className="text-3xl color-palette-1 m-0">
-                  <span className="fw-medium">125</span>
+                  <span className="fw-medium">125 </span>
                   Gold
                 </p>
                 <svg
@@ -115,7 +115,7 @@ export default function TopUpForm() {
             <div className="detail-card">
               <div className="d-flex justify-content-between">
                 <p className="text-3xl color-palette-1 m-0">
-                  <span className="fw-medium">125</span>
+                  <span className="fw-medium">125 </span>
                   Gold
                 </p>
                 <svg
@@ -144,7 +144,7 @@ export default function TopUpForm() {
             <div className="detail-card">
               <div className="d-flex justify-content-between">
                 <p className="text-3xl color-palette-1 m-0">
-                  <span className="fw-medium">125</span>
+                  <span className="fw-medium">125 </span>
                   Gold
                 </p>
                 <svg
