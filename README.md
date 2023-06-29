@@ -2,16 +2,23 @@
 ## 1. Install Node js terlebih dahulu
 https://nodejs.org/en
 
-## 2. Download Ekstensi di vscodenya
+## 2. Clone project ini
+```bash
+git clone https://github.com/daaffalbari/wellstore-project-client.git
+cd <nama file>  
+code .
+```
+
+## 3. Download Ekstensi di vscodenya
 - Prettier
 - ESLint
 
-## 3. Jalanin ini
+## 4. Jalanin ini
 ```bash
 npm install
 npm run dev
 ```
-Lalu buka ini [http://localhost:3000](http://localhost:3000) di browser
+Lalu buka ini [http://localhost:3000](http://localhost:3000) di browser <br/>
 Kalau error berarti kurang bismillah
 
 
