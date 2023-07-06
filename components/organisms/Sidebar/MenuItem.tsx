@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import cx from 'classnames';
+import Link from 'next/link';
 
 interface MenuItemProps {
   title: string;
@@ -12,6 +13,7 @@ interface MenuItemProps {
     | 'ic-menu-setting'
     | 'ic-menu-logout';
   active?: boolean;
+  href
 }
 
 export default function MenuItem(props: Partial<MenuItemProps>) {
@@ -27,7 +29,11 @@ export default function MenuItem(props: Partial<MenuItemProps>) {
         <Image src={`/icon/${icon}.svg`} width={25} height={25} alt="" />
       </div>
       <p className="item-title m-0">
-        <a href="" className="text-lg text-decoration-none">
+        <Link href={href}>
+
+        <a className="text-lg text-decoration-none"></a>
+        </Link>
+        
           {title}
         </a>
       </p>
