@@ -13,11 +13,12 @@ interface MenuItemProps {
     | 'ic-menu-setting'
     | 'ic-menu-logout';
   active?: boolean;
-  href
+  href: string
+
 }
 
 export default function MenuItem(props: Partial<MenuItemProps>) {
-  const { title, icon, active } = props;
+  const { title, icon, active, href  } = props;
   const classItem = cx({
     item: true,
     'mb-30': true,
@@ -29,14 +30,12 @@ export default function MenuItem(props: Partial<MenuItemProps>) {
         <Image src={`/icon/${icon}.svg`} width={25} height={25} alt="" />
       </div>
       <p className="item-title m-0">
-        <Link href={href}>
-
-        <a className="text-lg text-decoration-none"></a>
+    
+      <Link href={href || ""} className="text-lg text-decoration-none"> {title}
         </Link>
         
-          {title}
-        </a>
-      </p>
-    </div>
+         
+        </p>
+      </div>
   );
 }
