@@ -1,9 +1,11 @@
 import React from 'react'
 import TableRow from './TableRow'
 import ButtonTab from './ButtonTab'
+import Image from 'next/image'
 
 export default function transactionContent() {
   return (
+    
     <main className="main-wrapper">
         <div className="ps-lg-0">
           <h2 className="text-4xl fw-bold color-palette-1 mb-30">My Transactions</h2>
