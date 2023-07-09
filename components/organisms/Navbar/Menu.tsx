@@ -5,7 +5,7 @@ interface MenuProps {
   title: string;
   active?: boolean;
   href: string;
-  h1:string;
+  
 }
 
 export default function Menu(props: Partial<MenuProps>) {
