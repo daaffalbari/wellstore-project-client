@@ -1,4 +1,4 @@
-export interface InputProps {
+interface InputProps {
   label: string;
 }
 export default function Input(props: InputProps) {
