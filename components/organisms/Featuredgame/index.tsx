@@ -1,7 +1,11 @@
 import Image from 'next/image';
 import GameItem from '../../molecules/GameItem';
+import { useEffect } from 'react';
+import axios from 'axios';
+import { promises } from 'dns';
 
 export default function FeaturedGame() {
+ 
   return (
     <section className="featured-game pt-50 pb-50">
       <div className="container-fluid">
