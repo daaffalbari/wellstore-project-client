@@ -1,25 +1,26 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-interface GameItemProps {
+export interface GameItemProps {
   title: string;
   category: string;
-  thumbnail: 'Thumbnail-1' | 'Thumbnail-2' | 'Thumbnail-3' | 'Thumbnail-4' | 'Thumbnail-5';
+  thumbnail: string;
+  id: string;
 }
-
-export default function GameItem(props: Partial<GameItemProps>) {
-  const { title, category, thumbnail } = props;
+export default function GameItem(props: GameItemProps) {
+  const { title, category, thumbnail, id } = props;
   return (
     <div className="featured-game-card position-relative">
-      <Link href={'/detail'} legacyBehavior>
+      <Link href={`/detail/${id}`} legacyBehavior>
         <a>
           <div className="blur-sharp">
-            <Image className="thumbnail" src={`/img/${thumbnail}.png`} width={205} height={270} alt="" />
+            {/* [CODE UPDATE] menambahkan layout="fixed" untuk memperbaiki responsive di mobile */}
+            <Image className="thumbnail" src={thumbnail} width={205} height={270} layout="fixed" alt="thumbnail" />
           </div>
           <div className="cover position-absolute bottom-0 m-32">
             <div className="d-flex flex-column h-100 justify-content-between text-decoration-none">
               <div className="game-icon mx-auto">
-                <Image src="/icon/console.svg" width={54} height={36} alt="console-icon" />
+                <Image src="/icon/console.svg" width={54} height={36} alt="console" layout="fixed" />
               </div>
               <div>
                 <p className="fw-semibold text-white text-xl m-0">{title}</p>
